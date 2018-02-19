@@ -1,4 +1,4 @@
-# create-jekyll-post.sh
+# create-empty-post-for-jekyll.sh
 Shell to create an empty post for Jekyll.
 
 ## Install

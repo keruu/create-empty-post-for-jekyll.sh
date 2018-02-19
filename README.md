@@ -1,8 +1,8 @@
 # create-jekyll-post.sh
-Shell that create empty post for Jekyll.
+Shell to create an empty post for Jekyll.
 
-## install
-Copy `new` to jekyll project directory.
+## Install
+Copy the `new` file to the Jekyll project directory.
 
 ~~~
 jekyll-project/
@@ -14,17 +14,19 @@ jekyll-project/
 - new <- this is.
 ~~~
 
-# usage
-Create new post.
+# Usage
+Pass the hiphen-delimited title character string as an argument and executed it.
 
 ~~~
 $ chmod +x new
 $ ./new title-string
 ~~~
 
-Then, created `_posts/2018-02-19-title-string.markdown`.
+Then the file containing the current date like below can be found under the _post directory.
 
-File has default header.
+`_posts/2018-02-19-title-string.markdown`.
+
+The file contains the default header as follows.
 ~~~
 ---
 layout: post
@@ -33,3 +35,7 @@ date: 2018-02-19 21:11:47 +0900
 categories: 
 ---
 ~~~
+
+# More
+If you are using Sublime Text, you can run this script with the Glue plugin.
+It makes it easier to create new files for Jekyll with Sublime Text.

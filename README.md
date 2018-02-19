@@ -1,6 +1,8 @@
 # create-empty-post-for-jekyll.sh
 Shell to create an empty post for Jekyll.
 
+Jekyll用に空のポストを作成するシェルです。
+
 ## Install
 Copy the `new` file to the Jekyll project directory.
 
